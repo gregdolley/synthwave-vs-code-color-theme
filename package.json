@@ -1,0 +1,21 @@
+{
+  "name": "synthwave-vs-code-color-theme",
+  "displayName": "SynthWave '84 Higher Contrast",
+  "version": "1.0.0",
+  "author": "Greg Dolley",
+  "publisher": "Greg Dolley",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gregdolley/synthwave-vs-code-color-theme/"
+  },
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "keywords": [
+    "retro",
+    "80s"
+  ],
+  "categories": [
+    "Themes"
+  ],
+}
