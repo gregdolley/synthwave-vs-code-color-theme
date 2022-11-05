@@ -18,4 +18,27 @@
   "categories": [
     "Themes"
   ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "synthwave-vs-code-color-theme",
+        "label": "SynthWave '84 Higher Contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/synthwave-improved-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "eslint-config": "eslint --print-config .eslintrc",
+    "eslint-check": "eslint --print-config .eslintrc | eslint-config-prettier-check",
+    "lint": "./node_modules/eslint/bin/eslint.js --ext .js src",
+    "prettier": "prettier --write '{api,lib,__test__}/**/*.{js,json}' './*.{js,json}'"
+  },
+  "bugs": {
+    "url": "https://github.com/gregdolley/synthwave-vs-code-color-theme/issues"
+  }
 }
