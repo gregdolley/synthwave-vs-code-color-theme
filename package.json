@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Greg Dolley",
   "publisher": "Greg Dolley",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/gregdolley/synthwave-vs-code-color-theme/"
@@ -30,7 +31,7 @@
   },
   "devDependencies": {
     "eslint": "^5.16.0",
-    "prettier": "^1.18.2"
+    "prettier": "^2.7.1"
   },
   "scripts": {
     "eslint-config": "eslint --print-config .eslintrc",
